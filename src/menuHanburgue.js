@@ -15,7 +15,7 @@ hamburger.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
     containerMenu.classList.remove('show');
     overlay.classList.remove('show')
-    
+    body.classList.remove('remove-overflow')
 });
 
 overlay.addEventListener('click', () => {
