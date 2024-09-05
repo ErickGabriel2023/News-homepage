@@ -46,7 +46,9 @@
 }
 
 @media (max-width: 890px) {
-    
+    .remove-overflow {
+        overflow: hidden;
+    }
 
     header {
         justify-content: space-between;
